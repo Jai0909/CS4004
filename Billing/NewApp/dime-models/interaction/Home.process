@@ -1,0 +1,43 @@
+Process _LWgagF-SEeakMeYoloYxpg {
+  modelName "Home"
+  description "Home"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _LYO40F-SEeakMeYoloYxpg at 50,50 size 100,65 {
+  	-ControlFlow-> _-xUtUGUQEea0lrrxwspd7g  decorate "Polyline" at (2,0) {
+  		id _OaoS0F-SEeakMeYoloYxpg
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _-xUtUGUQEea0lrrxwspd7g at 50,150 size 100,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_LmrS0Ej8EeaK4_MRcoLfnw"
+  	name "PublicHome"
+  	label "PublicHome"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _-xgTgGUQEea0lrrxwspd7g   {
+  		id _-xlzEGUQEea0lrrxwspd7g
+  		concurrent true
+  	}
+  }
+  
+  Branch _-xgTgGUQEea0lrrxwspd7g at 170,170 size 100,25 {
+  	name "Login"
+  	-ControlFlow-> _3huTEGUQEea0lrrxwspd7g  decorate "Polyline" at (2,0) {
+  		id _B0yeUGUREea0lrrxwspd7g
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _3huTEGUQEea0lrrxwspd7g at 300,150 size 100,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_NGHA8F4TEear0NzybbrMtw"
+  	name "PrivateHome"
+  	label "PrivateHome"
+  	ignoredBranch [  ]
+  }
+}

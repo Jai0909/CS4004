@@ -1,0 +1,228 @@
+GUI _NGHA8F4TEear0NzybbrMtw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "PrivateHome"
+  Template _NGNuoF4TEear0NzybbrMtw at 270,30 size 390,575 {
+  	blockName "body"
+  	disableAutoLayout false
+  	Jumbotron _mBkmoF7cEeaOsfr6s-K4-Q at 10,30 size 370,515 {
+  		generalStyle GeneralStyling _klieATD2EemwX93gZgy7kw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _mBnp8F7cEeaOsfr6s-K4-Q at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _mBoRAF7cEeaOsfr6s-K4-Q at 2,10 size 14,7 {
+  		}
+  		
+  		Row _6pGgwF7bEeaOsfr6s-K4-Q at 10,30 size 350,455 {
+  			generalStyle GeneralStyling _klieAzD2EemwX93gZgy7kw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _6pIV8F7bEeaOsfr6s-K4-Q at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _6pJkEF7bEeaOsfr6s-K4-Q at 2,10 size 14,7 {
+  			}
+  			
+  			Col _6pPDoF7bEeaOsfr6s-K4-Q at 10,30 size 320,405 {
+  				wideness Full
+  				layout Layout _klieBTD2EemwX93gZgy7kw {
+  						size Default
+  						offset None
+  						alignment Center
+  					}
+  				generalStyle GeneralStyling _kljFETD2EemwX93gZgy7kw {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveLeft _6pSG8F7bEeaOsfr6s-K4-Q at 2,2 size 7,14 {
+  				}
+  				
+  				MoveRight _6pT8IF7bEeaOsfr6s-K4-Q at 10,2 size 7,14 {
+  				}
+  				
+  				Headline _WUg1oF-REeakMeYoloYxpg at 10,90 size 300,50 {
+  					size Small
+  					content [ StaticContent _kljFEzD2EemwX93gZgy7kw {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent "This is the private area."
+  						} ]
+  					generalStyle GeneralStyling _kljFFTD2EemwX93gZgy7kw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Single
+  						}
+  					MoveUp _WUp_kF-REeakMeYoloYxpg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _WUtp8F-REeakMeYoloYxpg at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Button _2eAhoF-REeakMeYoloYxpg at 10,315 size 200,60 {
+  					displayLabel "Logout"
+  					label "Logout"
+  					styling ButtonStyling _kljFFzD2EemwX93gZgy7kw {
+  							fullWidth false
+  							size Default
+  							disabled false
+  							color Yellow
+  						}
+  					options ButtonOptions _kljFGTD2EemwX93gZgy7kw {
+  							isLink false
+  							submitsForm true
+  							staticURL "logout"
+  						}
+  					disabled false
+  					icon Icon _kljsITD2EemwX93gZgy7kw {
+  							postIcon LogOut
+  							preIcon None
+  						}
+  					generalStyle GeneralStyling _kljsIzD2EemwX93gZgy7kw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Double
+  						}
+  					MoveUp _2eEzEF-REeakMeYoloYxpg at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _2eFaIF-REeakMeYoloYxpg at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Headline _QY1V8F4TEear0NzybbrMtw at 10,30 size 300,50 {
+  					size Big
+  					content [ StaticContent _kljsJTD2EemwX93gZgy7kw {
+  							renderMarkdown false
+  							maxChars 0
+  							html false
+  							rawContent "Welcome, {{currentUser.baseUser.firstName}} {{currentUser.baseUser.lastName}}."
+  						} ]
+  					generalStyle GeneralStyling _kljsJzD2EemwX93gZgy7kw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop Triple
+  						}
+  					MoveUp _QY3yMF4TEear0NzybbrMtw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _QY4ZQF4TEear0NzybbrMtw at 2,10 size 14,7 {
+  					}
+  				}
+  				
+  				Box _1H5ikFBJEeyfcbT8Jtm1bw at 10,150 size 170,155 {
+  					invisible false
+  					generalStyle GeneralStyling _1IA3UFBJEeyfcbT8Jtm1bw {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveUp _1H-bEVBJEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  					}
+  					
+  					MoveDown _1H_CIVBJEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  					}
+  					
+  					GUISIB _2-TDgFBJEeyfcbT8Jtm1bw at 10,60 size 150,65 {
+  						libraryComponentUID "_B5YkYE_DEeyfcbT8Jtm1bw"
+  						label "Bill"
+  						generalStyle GeneralStyling _2-po0FBJEeyfcbT8Jtm1bw {
+  								tallness Fitting
+  								marginBottom None
+  								attributes [  ]
+  								marginTop None
+  							}
+  						MoveUp _2-nMkVBJEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  						}
+  						
+  						MoveDown _2-nzoVBJEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  						}
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+  
+  DataContext _NGL5cF4TEear0NzybbrMtw at 10,30 size 200,465 {
+  	dfViewWorkaround true
+  	ComplexVariable _xgNCoF4XEea_oaWbSLmttQ at 20,110 size 140,25 {
+  		expanded true
+  		isLive false
+  		libraryComponentUID "_dh6BYMwNEeWZVvvwxpYu8A"
+  		isInput false
+  		name "currentUser"
+  		dfViewWorkaround true
+  		isList false
+  		-ComplexAttributeConnector-> _x83JcF4XEea_oaWbSLmttQ via (5,152) (5,300) (5,451) decorate "Ellipse" at (0,0) {
+  			id _x9CIkF4XEea_oaWbSLmttQ
+  			associationName "baseUser"
+  		}
+  		
+  		-IF-> _QY1V8F4TEear0NzybbrMtw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _1nXTAF4cEeaWrbpuOrqSKA
+  			negate false
+  		}
+  		
+  		-ComplexAttributeConnector-> _YhLMAFBEEeyfcbT8Jtm1bw via (92,188) decorate "Ellipse" at (0,0) {
+  			id _YieMgFBEEeyfcbT8Jtm1bw
+  			associationName "bill"
+  		}
+  	}
+  	
+  	ComplexVariable _x83JcF4XEea_oaWbSLmttQ at 20,410 size 140,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_UdYs4MwNEeWZVvvwxpYu8A"
+  		isInput false
+  		name "baseUser"
+  		dfViewWorkaround true
+  		isList false
+  		-IF-> _QY1V8F4TEear0NzybbrMtw  decorate "Polyline" at (2,0) decorate "Text" at (0,0) {
+  			id _dO-vsF4YEea_oaWbSLmttQ
+  			negate false
+  		}
+  	}
+  	
+  	ComplexVariable _YhLMAFBEEeyfcbT8Jtm1bw at 10,180 size 140,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_zfF9sU_FEeyfcbT8Jtm1bw"
+  		isInput false
+  		name "bill"
+  		dfViewWorkaround true
+  		isList true
+  		-ComplexListAttributeConnector-> _iNjxwFBEEeyfcbT8Jtm1bw  decorate "Ellipse" at (0,0) {
+  			id _iOx5wFBEEeyfcbT8Jtm1bw
+  			attributeName current
+  		}
+  	}
+  	
+  	ComplexVariable _iNjxwFBEEeyfcbT8Jtm1bw at 10,280 size 140,25 {
+  		expanded false
+  		isLive false
+  		libraryComponentUID "_zfF9sU_FEeyfcbT8Jtm1bw"
+  		isInput false
+  		name "current"
+  		dfViewWorkaround true
+  		isList false
+  	}
+  }
+}

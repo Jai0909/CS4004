@@ -1,0 +1,187 @@
+GUI _B5YkYE_DEeyfcbT8Jtm1bw {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "Bill"
+  DataContext _B6GWEE_DEeyfcbT8Jtm1bw at 10,10 size 180,80 {
+  	dfViewWorkaround true
+  }
+  
+  Template _B6QuIE_DEeyfcbT8Jtm1bw at 260,20 size 320,420 {
+  	blockName "body"
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _B6bGME_DEeyfcbT8Jtm1bw {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Listing _R2xEUFBWEeyfcbT8Jtm1bw at 10,160 size 200,160 {
+  		mode Unordered
+  		inline false
+  		generalStyle GeneralStyling _R4mQUFBWEeyfcbT8Jtm1bw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _R3WTIFBWEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _R3Z9gVBWEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  		}
+  		
+  		Listentry _R3tfgFBWEeyfcbT8Jtm1bw at 10,40 size 180,40 {
+  			content [ StaticContent _R4eUgFBWEeyfcbT8Jtm1bw {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "4 X Eggs @ €1.5 each "
+  					styling TextStyling _R4h-4FBWEeyfcbT8Jtm1bw {
+  							small false
+  							highlight false
+  							deleted false
+  							underline false
+  							bold false
+  							alignment Left
+  							italic false
+  							color Default
+  						}
+  				} ]
+  			generalStyle GeneralStyling _R4dtcFBWEeyfcbT8Jtm1bw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _R4b4QVBWEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _R4b4Q1BWEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  			}
+  		}
+  		
+  		Listentry _kq54wFBWEeyfcbT8Jtm1bw at 10,90 size 180,40 {
+  			content [ StaticContent _krNawFBWEeyfcbT8Jtm1bw {
+  					renderMarkdown false
+  					maxChars 0
+  					html false
+  					rawContent "2 X Sausagaes @ €2.5 each"
+  					styling TextStyling _krRsMFBWEeyfcbT8Jtm1bw {
+  							small false
+  							highlight false
+  							deleted false
+  							underline false
+  							bold false
+  							alignment Left
+  							italic false
+  							color Default
+  						}
+  				} ]
+  			generalStyle GeneralStyling _krMMoFBWEeyfcbT8Jtm1bw {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveUp _krFe8FBWEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  			}
+  			
+  			MoveDown _krHUIVBWEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  			}
+  		}
+  	}
+  	
+  	Headline _vQSjEFBWEeyfcbT8Jtm1bw at 10,30 size 300,50 {
+  		size Big
+  		content [ StaticContent _vQcUEVBWEeyfcbT8Jtm1bw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Bill Bot"
+  				styling TextStyling _vQc7IFBWEeyfcbT8Jtm1bw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Center
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _vQcUEFBWEeyfcbT8Jtm1bw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _vQbF8VBWEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _vQbF81BWEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Text _2grngFBWEeyfcbT8Jtm1bw at 10,90 size 200,60 {
+  		content [ StaticContent _2g2moFBWEeyfcbT8Jtm1bw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Bill No. : 007"
+  				styling TextStyling _2g5p8FBWEeyfcbT8Jtm1bw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling _2g1YgFBWEeyfcbT8Jtm1bw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _2gwgAVBWEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _2gyVMVBWEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  		}
+  	}
+  	
+  	Text __XdJAFBYEeyfcbT8Jtm1bw at 10,330 size 200,60 {
+  		content [ StaticContent __Y890FBYEeyfcbT8Jtm1bw {
+  				renderMarkdown false
+  				maxChars 0
+  				html false
+  				rawContent "Total : €11"
+  				styling TextStyling __ZRt8FBYEeyfcbT8Jtm1bw {
+  						small false
+  						highlight false
+  						deleted false
+  						underline false
+  						bold false
+  						alignment Left
+  						italic false
+  						color Default
+  					}
+  			} ]
+  		generalStyle GeneralStyling __Y4sYFBYEeyfcbT8Jtm1bw {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp __Yfq0FBYEeyfcbT8Jtm1bw at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown __YlxcFBYEeyfcbT8Jtm1bw at 2,10 size 14,7 {
+  		}
+  	}
+  }
+}
