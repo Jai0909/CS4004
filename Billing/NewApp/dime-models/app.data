@@ -1,0 +1,123 @@
+Data _tH3fEMwMEeWZVvvwxpYu8A {
+  modelName "Data"
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 90,60 size 111,73 {
+  	name "ConcreteUser"
+  	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 101,18 {
+  		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
+  		dataType _UdYs4MwNEeWZVvvwxpYu8A
+  		name "baseUser"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _4pAoYU_GEeyfcbT8Jtm1bw at 5,50 size 101,18 {
+  		oppositeAttribute _4omYsE_GEeyfcbT8Jtm1bw
+  		dataType _zfF9sU_FEeyfcbT8Jtm1bw
+  		name "bill"
+  		isList true
+  	}
+  }
+  
+  UserType _UdYs4MwNEeWZVvvwxpYu8A at 74,190 size 143,145 {
+  	name "BaseUser"
+  	UserAttribute _fOkXgMwNEeWZVvvwxpYu8A at 5,32 size 133,18 {
+  		oppositeAttribute _fPY24MwNEeWZVvvwxpYu8A
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "concreteUser"
+  		isList true
+  	}
+  	
+  	PrimitiveAttribute _YIIgUMwNEeWZVvvwxpYu8A at 5,104 size 133,18 {
+  		dataType Text
+  		name "password"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _3QnzMM46EeWKGIrSDzlNog at 5,68 size 133,18 {
+  		dataType File
+  		name "image"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _VE6ToM5BEeWKGIrSDzlNog at 5,50 size 133,18 {
+  		dataType Text
+  		name "firstName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _WYcYEM5BEeWKGIrSDzlNog at 5,86 size 133,18 {
+  		dataType Text
+  		name "lastName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _1aiCkG_QEeaqHezD6-M0AA at 5,122 size 133,18 {
+  		dataType Text
+  		name "username"
+  		isList false
+  	}
+  	-UserAssociation-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Text" at (4,-8) decorate "Text" at (12,-7) {
+  		id _fOZ_cMwNEeWZVvvwxpYu8A
+  		targetAttr _fOkXgMwNEeWZVvvwxpYu8A
+  		isHidden false
+  		sourceAttr _fPY24MwNEeWZVvvwxpYu8A
+  	}
+  }
+  
+  ConcreteType _zfF9sU_FEeyfcbT8Jtm1bw at 650,100 size 140,91 {
+  	name "Bill"
+  	PrimitiveAttribute _rQxb8E_GEeyfcbT8Jtm1bw at 5,32 size 130,18 {
+  		dataType Integer
+  		name "billno"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _xnK9UE_GEeyfcbT8Jtm1bw at 5,68 size 130,18 {
+  		oppositeAttribute _xnfGYU_GEeyfcbT8Jtm1bw
+  		dataType _zxvM4U_FEeyfcbT8Jtm1bw
+  		name "item"
+  		isList true
+  	}
+  	
+  	BidirectionalAttribute _4omYsE_GEeyfcbT8Jtm1bw at 5,50 size 130,18 {
+  		oppositeAttribute _4pAoYU_GEeyfcbT8Jtm1bw
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "concreteUser"
+  		isList false
+  	}
+  	-BidirectionalAssociation-> _zxvM4U_FEeyfcbT8Jtm1bw  decorate "Text" at (0,0) decorate "Text" at (0,0) {
+  		id _xm864E_GEeyfcbT8Jtm1bw
+  		targetAttr _xnK9UE_GEeyfcbT8Jtm1bw
+  		isHidden false
+  		sourceAttr _xnfGYU_GEeyfcbT8Jtm1bw
+  	}
+  	
+  	-BidirectionalAssociation-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Text" at (-59,6) decorate "Text" at (0,0) {
+  		id _4oQacE_GEeyfcbT8Jtm1bw
+  		targetAttr _4omYsE_GEeyfcbT8Jtm1bw
+  		isHidden false
+  		sourceAttr _4pAoYU_GEeyfcbT8Jtm1bw
+  	}
+  }
+  
+  ConcreteType _zxvM4U_FEeyfcbT8Jtm1bw at 650,290 size 140,91 {
+  	name "Item"
+  	PrimitiveAttribute _koVvYE_GEeyfcbT8Jtm1bw at 5,50 size 130,18 {
+  		dataType Text
+  		name "name"
+  		isList true
+  	}
+  	
+  	PrimitiveAttribute _k1xucU_GEeyfcbT8Jtm1bw at 5,68 size 130,18 {
+  		dataType Text
+  		name "rate"
+  		isList true
+  	}
+  	
+  	BidirectionalAttribute _xnfGYU_GEeyfcbT8Jtm1bw at 5,32 size 130,18 {
+  		oppositeAttribute _xnK9UE_GEeyfcbT8Jtm1bw
+  		dataType _zfF9sU_FEeyfcbT8Jtm1bw
+  		name "bill"
+  		isList false
+  	}
+  }
+}
